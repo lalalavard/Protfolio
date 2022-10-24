@@ -10,7 +10,7 @@ const Header = () => {
             <a
               aria-label="Home"
               className="flex text-4xl space-x-4 whitespace-nowrap"
-              href="/"
+              href="javascript:void(0)"
               aria-current="page"
             >
               <svg

@@ -11,7 +11,7 @@ const Home: NextPage = () => {
   return (
     <Layout>
       <Head>
-        <title>lavard's Protfolio</title>
+        <title>lavard&apos;s Protfolio</title>
         <meta name="description" content="portfolio by lavard" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -26,6 +26,7 @@ const Home: NextPage = () => {
                 width={300}
                 height={300}
                 quality={5}
+                alt="avatar"
               />
             </div>
             <div className="flex-1">
@@ -33,7 +34,7 @@ const Home: NextPage = () => {
                 来自拉夫德鲁的码农
                 <a
                   href="https://www.github.com/lalalavard"
-                  rel="noopener"
+                  rel="noreferrer"
                   target="_blank"
                   className="hidden md:inline hover:underline ml-2 text-2xl text-accent"
                 >
@@ -41,7 +42,7 @@ const Home: NextPage = () => {
                 </a>
               </h1>
               <p>
-                Hi 👋 I'm a Front-end developer. Using
+                Hi 👋 I&apos;m a Front-end developer. Using
                 <button className={[styles.btn, styles.java].join(" ")}>
                   <span className="text-blue-200">React</span>
                 </button>
@@ -56,7 +57,7 @@ const Home: NextPage = () => {
                   <a
                     className="hover:text-accent transition-colors duration-300"
                     href="https://github.com/lalalavard"
-                    rel="noopener"
+                    rel="noreferrer"
                     target="_blank"
                   >
                     <svg
@@ -81,7 +82,7 @@ const Home: NextPage = () => {
                   <a
                     className="hover:text-accent transition-colors duration-300"
                     href="https://twitter.com/lllavard"
-                    rel="noopener"
+                    rel="noreferrer"
                     target="_blank"
                   >
                     <svg
