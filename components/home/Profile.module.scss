@@ -1,0 +1,89 @@
+.btn {
+  margin: 10px 0 10px 10px;
+  border: none;
+  padding: 10px 32px;
+  font-size: 24px;
+  position: relative;
+  &::before {
+    transition: all 0.45s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    content: "";
+    width: 50%;
+    height: 100%;
+    background: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  //rounded btn styles
+  &.rounded {
+    color: black;
+    mix-blend-mode: difference;
+    border-radius: 50px;
+
+    &::before {
+      border-radius: 50px;
+      width: 25%;
+      background: #00f0b5;
+    }
+    &:hover {
+      &::before {
+        background: #00f0b5;
+        width: 100%;
+        opacity: 0.75;
+      }
+    }
+  }
+  &.react {
+    color: black;
+    mix-blend-mode: difference;
+    border-radius: 50px;
+    &::before {
+      border-radius: 50px;
+      width: 25%;
+      background: #087ea4;
+    }
+    &:hover {
+      &::before {
+        background: #087ea4;
+        width: 100%;
+        opacity: 0.75;
+      }
+    }
+  }
+  &.java {
+    color: black;
+    mix-blend-mode: difference;
+    border-radius: 50px;
+
+    &::before {
+      border-radius: 50px;
+      width: 25%;
+      background: #de4b4d;
+    }
+    &:hover {
+      &::before {
+        background: #de4b4d;
+        width: 100%;
+        opacity: 0.75;
+      }
+    }
+  }
+  &.rs {
+    color: black;
+    mix-blend-mode: difference;
+    border-radius: 50px;
+
+    &::before {
+      border-radius: 50px;
+      width: 25%;
+      background: #ffc832;
+    }
+    &:hover {
+      &::before {
+        background: #ffc832;
+        width: 100%;
+        opacity: 0.75;
+      }
+    }
+  }
+}
